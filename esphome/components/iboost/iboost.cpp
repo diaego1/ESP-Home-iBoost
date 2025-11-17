@@ -136,8 +136,8 @@ namespace esphome {
             Serial.println("RadioReg");
             radio.writeRegister(CC1101_FREQ2, 0x21); // 868.300MHz  (868300000 <<16)/26000000
             Serial.println("RadioReg");
-            radio.writeRegister(CC1101_FREQ1, 0x65);
-            radio.writeRegister(CC1101_FREQ0, 0x6a);
+            radio.writeRegister(CC1101_FREQ1, 0x66);
+            radio.writeRegister(CC1101_FREQ0, 0xa5);
             radio.writeRegister(CC1101_FSCTRL1, 0x08); // fif=203.125kHz
             radio.writeRegister(CC1101_FSCTRL0, 0x00); // No offset
             radio.writeRegister(CC1101_MDMCFG4, 0x5B); // CHANBW_E = 1 CHANBW_M=1 BWchannel =325kHz   DRATE_E=11
