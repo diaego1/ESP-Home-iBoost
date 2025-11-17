@@ -13,7 +13,7 @@ esp8266:
 external_components:
   - source:
       type: git
-      url: https://github.com/JNSwanson/ESP-Home-iBoost/
+      url: https://github.com/diaego1/ESP-Home-iBoost/
       #type: local # Alternative.  Clone from git and point to the local files:
       #path: "C:\\Users\\<your Name>\\iboostSrc\\ESP-Home-iBoost\\esphome\\components" 
     components:
